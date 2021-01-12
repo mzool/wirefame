@@ -4,7 +4,7 @@ header{
     background-color: rgb(9, 77, 9);
 margin-bottom: 30px;
 }
-#firstdiv{
+header div{
 position: relative;
 min-height: 90px;
 
