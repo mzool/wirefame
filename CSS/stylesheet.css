@@ -1,0 +1,117 @@
+
+header{
+    min-height: 90px;
+    background-color: rgb(9, 77, 9);
+margin-bottom: 30px;
+}
+#firstdiv{
+position: relative;
+min-height: 90px;
+
+}
+header img{
+    position: relative;
+    height: 70px;
+    width: 200px;
+    top: 10px;
+    left: 4cm;
+}
+
+header ul{
+    display: inline; 
+    position: relative;
+   bottom: 15px; 
+   left: 4cm;
+   font-size: 30px;
+  
+    
+}
+li{
+    display: inline;
+   top: 20;
+    margin: 31px;
+}
+a{
+     text-decoration: none;
+     text-transform: uppercase;
+     color: black;
+}
+
+main :first-child img  {
+width: 960px;
+height: 450px;
+position: relative;
+left: 4cm;
+margin-bottom: 30px;
+}
+
+main  :nth-child(2) img  {
+     width: 300px;
+     height: 375px;
+     position: relative;
+     left: 4cm;
+     margin-right: 26.4px;
+     margin-left: 0px;
+     margin-bottom: 30px;
+     
+}
+ 
+main  :nth-child(3) img {
+    position: relative;
+    left: 4cm;
+    width: 480px;
+    height: 400px;
+    display: inline;
+    float: left;
+    top: 0px;
+    
+    
+}
+
+main :last-child p {
+    display: inline;
+    position: relative;
+    left: 4.2cm;
+    bottom: .2cm;
+    margin-bottom: 3cm;
+    
+   
+}
+main :last-child h1{
+    position: relative;
+    left: 4.2cm;
+    margin-top: 0px;
+    top: 0px;
+}
+main :last-child h3{
+    position: relative;
+    background-color: black;
+    color: white;
+    width:fit-content ;
+    height: fit-content;
+    left: 18cm;
+    bottom: .7cm;
+    border: solid  blue;
+    border-radius: 5%;
+    margin:1.1cm;
+    margin-bottom: 0px;
+    
+    
+}
+footer{
+    min-height: 3cm;
+    background-color: rgb(9, 77, 9);
+    position: relative;
+    margin-top: 30px;
+    margin-top: 0px;
+}
+footer a {
+    position: relative;
+    color: black;
+    font-size: 30px;
+    top: 1cm;
+    left: 1cm;
+    margin: 20px;
+}
+
+ 
