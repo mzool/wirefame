@@ -58,11 +58,13 @@ margin-bottom: 30px;
  
 main div:nth-child(3) img {
     position: relative;
-    left: 4cm;
+    
     width: 480px;
     height: 400px;
     display: inline;
     float: left;
+    left: .2px;
+    
     top: 0px;
     
     
@@ -71,8 +73,9 @@ main div:nth-child(3) img {
 main div:last-child p {
     display: inline;
     position: relative;
-    left: 4.2cm;
+    left:10px;
     bottom: .2cm;
+  
 }
 main div:last-child h1{
     position: relative;
@@ -87,7 +90,7 @@ button{
     color: rgb(240, 195, 195);
     width:fit-content;
     height: fit-content;
-    left: 9cm;
+    left: cm;
     bottom: .7cm;
     border: solid  rgb(207, 207, 236);
     border-radius: 5%;
@@ -114,8 +117,23 @@ footer a {
     color: black;
     font-size: 30px;
     top: 1cm;
-   margin-right: 2cm;
+   float: right;
+   margin-right: 1cm;
     
 }
 
- 
+ section{
+     display: inline;
+     position: relative;
+     border: solid black;
+     height: fit-content;
+    left: 4cm;
+    min-width: fit-content;
+    width: 30cm;
+    
+ }
+ main div:nth-child(2){
+    
+     left: 4cm;
+     
+ }
