@@ -13,31 +13,31 @@ header img{
     position: relative;
     height: 70px;
     width: 200px;
-    top: 10px;
+    top: 20px;
     left: 4cm;
 }
 
 header ul{
     display: inline; 
     position: relative;
-   bottom: 15px; 
+   bottom: 27px; 
    left: 4cm;
    font-size: 30px;
   
     
 }
-li{
+header li{
     display: inline;
    top: 20;
     margin: 31px;
 }
-a{
+header a{
      text-decoration: none;
      text-transform: uppercase;
      color: black;
 }
 
-main :first-child img  {
+img  {
 width: 960px;
 height: 450px;
 position: relative;
@@ -45,7 +45,7 @@ left: 4cm;
 margin-bottom: 30px;
 }
 
-main  :nth-child(2) img  {
+ main div:nth-child(2) img  {
      width: 300px;
      height: 375px;
      position: relative;
@@ -56,7 +56,7 @@ main  :nth-child(2) img  {
      
 }
  
-main  :nth-child(3) img {
+main div:nth-child(3) img {
     position: relative;
     left: 4cm;
     width: 480px;
@@ -68,35 +68,30 @@ main  :nth-child(3) img {
     
 }
 
-main :last-child p {
+main div:last-child p {
     display: inline;
     position: relative;
     left: 4.2cm;
     bottom: .2cm;
-    margin-bottom: 3cm;
-    
-   
 }
-main :last-child h1{
+main div:last-child h1{
     position: relative;
     left: 4.2cm;
     margin-top: 0px;
     top: 0px;
 }
-main :last-child h3{
+button{
+    font-size: 30px;
     position: relative;
     background-color: black;
-    color: white;
-    width:fit-content ;
+    color: rgb(240, 195, 195);
+    width:fit-content;
     height: fit-content;
-    left: 18cm;
+    left: 9cm;
     bottom: .7cm;
-    border: solid  blue;
+    border: solid  rgb(207, 207, 236);
     border-radius: 5%;
-    margin:1.1cm;
-    margin-bottom: 0px;
-    
-    
+    margin-top: 1cm;
 }
 footer{
     min-height: 3cm;
@@ -105,13 +100,22 @@ footer{
     margin-top: 30px;
     margin-top: 0px;
 }
+footer ul{
+    display: inline;
+}
+footer li {
+    display: inline;
+    position: relative;
+  right: 10cm;
+}
 footer a {
+    text-decoration: none;
     position: relative;
     color: black;
     font-size: 30px;
     top: 1cm;
-    left: 1cm;
-    margin: 20px;
+   margin-right: 2cm;
+    
 }
 
  
