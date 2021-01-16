@@ -73,13 +73,14 @@ main div:nth-child(3) img {
 main div:last-child p {
     display: inline;
     position: relative;
-    left:10px;
+    left:1px;
     bottom: .2cm;
+  
   
 }
 main div:last-child h1{
     position: relative;
-    left: 4.2cm;
+    left: 2.2cm;
     margin-top: 0px;
     top: 0px;
 }
@@ -90,7 +91,7 @@ button{
     color: rgb(240, 195, 195);
     width:fit-content;
     height: fit-content;
-    left: cm;
+    left: 4.5cm;
     bottom: .7cm;
     border: solid  rgb(207, 207, 236);
     border-radius: 5%;
@@ -126,14 +127,8 @@ footer a {
      display: inline;
      position: relative;
      border: solid black;
-     height: fit-content;
+     height: 400px;
     left: 4cm;
-    min-width: fit-content;
-    width: 30cm;
+    width: 960px;
     
- }
- main div:nth-child(2){
-    
-     left: 4cm;
-     
  }
